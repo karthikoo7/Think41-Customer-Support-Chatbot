@@ -12,6 +12,9 @@
   "dependencies": {
     "csv-parser": "^3.2.0",
     "dotenv": "^17.2.1",
-    "mongodb": "^6.18.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.16.5",
+    "uuid": "^11.1.0"
   }
 }

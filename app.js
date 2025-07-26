@@ -10,6 +10,8 @@ connectDB();
 app.use('/api/users', require('./routes/users'));
 app.use('/api/sessions', require('./routes/sessions'));
 app.use('/api/messages', require('./routes/messages'));
+app.use('/api', require('./routes/chat'));
+
 
 app.get('/', (req, res) => res.send('✅ Conversation backend is live'));
 
